@@ -14,3 +14,10 @@ This project uses OpenCV’s **CSRT tracker**, a robust object tracking algorith
 5. **Exit Condition**: Pressing the `ESC` key ends the tracking session and releases resources.
 
 The tracker does not perform object detection—it only tracks the object selected in the first frame.
+
+## Project Structure
+object-tracker/
+├── object_tracker.ipynb     
+├── demo.mp4                
+├── requirements.txt      
+└── README.md      
