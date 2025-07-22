@@ -1,11 +1,16 @@
 # Real-Time-Object-Tracker-using-OpenCV
 
-**How to Run
-**Steps:
-1-Webcam feed opens.
+## 🛠️ Implementation Details
 
-2- Select the object with your mouse on the first frame.
+This project uses OpenCV’s **CSRT tracker**, a robust object tracking algorithm designed for high accuracy.
 
-3- Press Enter to begin tracking.
+1. **Capture Stream**: The program opens the default webcam using `cv2.VideoCapture(0)`.
+2. **Frame Read & ROI Selection**: The first frame is extracted, then the user selects an object using `cv2.selectROI`, which pauses and allows mouse selection.
+3. **Tracker Initialization**: `cv2.TrackerCSRT_create()` creates a CSRT tracker, which is initialized with the user-defined bounding box.
+4. **Tracking Loop**:
+   - Frames are captured in real-time.
+   - The tracker updates the bounding box location each frame.
+   - A rectangle is drawn on the tracked object, and the frame rate is computed using `cv2.getTickCount()`.
+5. **Exit Condition**: Pressing the `ESC` key ends the tracking session and releases resources.
 
-4- Press ESC to exit.
+The tracker does not perform object detection—it only tracks the object selected in the first frame.
