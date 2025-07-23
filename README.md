@@ -1,7 +1,7 @@
 
-# Demo: Untitled - Google Chrome - 23 July 2025 - Watch Video
+## 🎥 Demo
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/184b9010f8ad4f4481f090085230cc0f?sid=08d38458-84c6-430e-ab92-f303f634ac7a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+👉 [Watch the demo video on Loom](https://www.loom.com/share/184b9010f8ad4f4481f090085230cc0f?sid=08d38458-84c6-430e-ab92-f303f634ac7a)
 
 
 # Real-Time-Object-Tracker-using-OpenCV
